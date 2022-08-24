@@ -10,4 +10,6 @@ int main(void)
   float media = 0.4 * a1 + 0.6 * a2;
   printf("%f", media);
   return 0;
+
+  
   }

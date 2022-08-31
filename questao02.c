@@ -6,12 +6,13 @@ int main(void)
 { 
   float base;
   float altura;
-  printf("coloque base:");
+  printf("coloque valor da base:");
   scanf("%f", &base);
-  printf("coloque altura:");
+  printf("coloque valor da altura:");
   scanf("%f", &altura);
   float area = base * altura / 2;
-  printf("%f", area);
+  
+  printf("A area do triangulo é %f", area);
 
 
 
